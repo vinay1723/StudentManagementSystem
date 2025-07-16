@@ -41,11 +41,14 @@ genders.addEventListener("click", () => {
   let data = sortByGenders(students_Data);
 });
 
-function isEmpty(e) {
-  console.log(e.target.value);
-  if (e.target.value === "") renderTable(students_Data);
-  return;
-}
+query.addEventListener("input", (e) => {
+  if (e.target.value === "") {
+    renderTable(students_Data);
+  } else {
+    let data = searchName(e.target.value);
+    renderTable(data);
+  }
+});
 
 function renderTable(students) {
   table.innerHTML = "";
