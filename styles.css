@@ -1,0 +1,126 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+header {
+  background-color: #000000;
+  height: 76px;
+  color: white;
+  font-family: Inter;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  padding: 25px;
+}
+
+main {
+  padding: 30px 20px;
+  width: 100vw;
+  background-color: #cdcdcd;
+  /* overflow-y: scroll; */
+}
+
+#searchBar {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+form {
+  width: 100%;
+}
+
+form > input {
+  height: 56px;
+  width: 1266px;
+  height: 65;
+  opacity: 1;
+  border: 1px solid black;
+  display: inline-block;
+  padding: 10px;
+  font-family: Inter;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+form > button {
+  width: 217px;
+  height: 56px;
+  text-align: center;
+  opacity: 1;
+  display: inline-block;
+  margin-left: 8px;
+}
+
+button {
+  width: 217px;
+  height: 56px;
+  text-align: center;
+  opacity: 1;
+  display: inline-block;
+  font-family: Inter;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #ffff;
+  background-color: #000000;
+  border: none;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+table {
+  width: 100%;
+  font-family: Inter;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-bottom: 30px;
+}
+
+tr {
+  height: 45px;
+}
+
+td {
+  padding: 10px;
+}
+
+tr > td:first-child {
+  text-align: center;
+}
+
+tr > td:nth-child(2) > div {
+  display: flex;
+  align-items: center;
+  /* border-bottom: 1px solid grey; */
+  /* text-align: left; */
+}
+
+tr > td:nth-child(2) > div > img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid black;
+  margin-right: 10px;
+}
